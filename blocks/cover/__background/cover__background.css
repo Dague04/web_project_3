@@ -9,4 +9,15 @@
   justify-content: center;
   margin-left: 0;
   object-fit: cover;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cover__background::before {
+  background-color: #2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__background:hover {
+  opacity: 0.8;
 }

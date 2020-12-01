@@ -4,8 +4,18 @@
   text-align: center;
   font-size: 96px;
   font-style: normal;
+  font-weight: 900;
   line-height: 1.04;
   margin-bottom: 32px;
+}
+
+@media screen and (max-width: 619px) {
+  .lead__title {
+    max-width: 540px;
+    font-size: 48px;
+    line-height: 0.9;
+    margin-bottom: 24px;
+  }
 }
 
 @media screen and (max-width: 320px) {

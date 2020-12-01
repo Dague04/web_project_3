@@ -18,6 +18,18 @@
   }
 }
 
+@media screen and (max-width: 619px) {
+  .places {
+    width: calc(100% - 20px * 2);
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .places {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .places {
     width: 100%;

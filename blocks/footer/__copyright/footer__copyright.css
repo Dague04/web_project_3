@@ -2,12 +2,22 @@
   font-size: 14px;
   line-height: 1.14;
   margin: 0;
-  padding: 0;
-  text-align: right;
 }
 
 @media screen and (max-width: 768px) {
   .footer__copyright {
     line-height: 1;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .footer__copyright {
+    padding: 0 0 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    padding: 0 0 0 16px;
   }
 }

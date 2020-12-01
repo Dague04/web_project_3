@@ -30,7 +30,13 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 619px) {
+  .place {
+    grid-gap: 36px 18px;
+  }
+}
+
+@media screen and (max-width: 460px) {
   .place {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
@@ -38,6 +44,12 @@
       "title"
       "image"
       "paragraph";
+    margin-bottom: 52px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
     margin-bottom: 49px;
   }
 }

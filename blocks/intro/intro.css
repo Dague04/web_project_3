@@ -19,6 +19,14 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    width: calc(100% - 24px * 2);
+    margin-bottom: 88px;
+  }
+}
+
 @media screen and (max-width: 619px) {
   .intro {
     width: calc(100% - 20px * 2);

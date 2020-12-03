@@ -2,7 +2,8 @@
   max-width: 320px;
   font-size: 18px;
   line-height: 1.22;
-  z-index: 1;
+  text-align: center;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 320px) {

@@ -9,3 +9,7 @@ Media queries are used to modify the page depending on a device's specific chara
 The site was designed according to the specification of the following Figma design:
 
 - [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=9444%3A91)
+
+The site can be accessed live at the following link:
+
+https://dague04.github.io/web_project_3/index.html

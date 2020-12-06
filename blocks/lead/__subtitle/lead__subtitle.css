@@ -9,27 +9,29 @@
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
-    width: 620px;
-    margin-left: 74px;
+    max-width: 620px;
     margin-bottom: 56px;
   }
 }
 
 @media screen and (max-width: 619px) {
   .lead__subtitle {
-    width: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+    font-size: 24px;
   }
 }
 
 @media screen and (max-width: 460px) {
   .lead__subtitle {
-    width: 290px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
-    width: 288px;
+    max-width: 288px;
     font-size: 16px;
     line-height: 1.25;
     margin: 0 16px 40px;

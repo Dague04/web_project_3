@@ -6,7 +6,7 @@
 .cover {
   max-width: calc(100% - 48px * 2);
   width: 100%;
-  height: calc(100% * (740 / 1280));
+  max-height: 740px;
   overflow: hidden;
   margin: 0 auto 92px;
   position: relative;
@@ -14,14 +14,21 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    height: calc(100% * (640 / 1024));
+    max-height: 640px;
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    height: calc(100% * (480 / 768));
+    max-height: 480px;
     margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .cover {
+    max-height: 200px;
+    margin-bottom: 64px;
   }
 }

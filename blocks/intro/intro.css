@@ -23,7 +23,7 @@
   .intro {
     max-width: 768px;
     width: calc(100% - 24px * 2);
-    margin-bottom: 88px;
+    margin: 0 auto 88px;
   }
 }
 
@@ -38,6 +38,6 @@
   .intro {
     max-width: 288px;
     width: calc(100% - 16px * 2);
-    margin-bottom: 64px;
+    margin: 0 auto 64px;
   }
 }
